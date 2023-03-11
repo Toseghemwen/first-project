@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/3.1.0/iconify.min.js"></script>
+    <title>Facebook clone</title>
+  </head>
+  <body class="bg-gray-200">
+    <nav
+      class="flex fixed h-14 w-full px-10 bg-white justify-between items-center"
+    >
+      <div class="flex">
+        <img src="images/facebook.png" class="h-8" alt="Facebook" />
+      </div>
+      <div class="bg-slate-200 rounded-full pr-60 py-1">
+        <form class="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="black"
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+            />
+          </svg>
+          <input
+            class="outline-none bg-slate-200 pr-58 py-1"
+            type="text"
+            placeholder="Search facebook"
+          />
+        </form>
+      </div>
+      <div>
+        <ul class="flex items-center space-x-3">
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g
+                id="feMessanger0"
+                fill="none"
+                fill-rule="evenodd"
+                stroke="none"
+                stroke-width="1"
+              >
+                <g id="feMessanger1" fill="currentColor">
+                  <path
+                    id="feMessanger2"
+                    d="m12.942 14.413l-2.56-2.66L5.45 14.48l5.406-5.736l2.56 2.66l4.93-2.727l-5.405 5.736ZM11.899 2C6.432 2 2 6.144 2 11.257c0 2.908 1.434 5.503 3.678 7.2V22l3.378-1.874c.9.252 1.855.388 2.843.388c5.468 0 9.9-4.145 9.9-9.257c0-5.113-4.432-9.257-9.9-9.257Z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 36 36"
+            >
+              <path
+                fill="currentColor"
+                d="m32.85 28.13l-.34-.3A14.37 14.37 0 0 1 30 24.9a12.63 12.63 0 0 1-1.35-4.81v-4.94A10.81 10.81 0 0 0 19.21 4.4V3.11a1.33 1.33 0 1 0-2.67 0v1.31a10.81 10.81 0 0 0-9.33 10.73v4.94a12.63 12.63 0 0 1-1.35 4.81a14.4 14.4 0 0 1-2.47 2.93l-.34.3v2.82h29.8Z"
+                class="clr-i-solid clr-i-solid-path-1"
+              />
+              <path
+                fill="currentColor"
+                d="M15.32 32a2.65 2.65 0 0 0 5.25 0Z"
+                class="clr-i-solid clr-i-solid-path-2"
+              />
+              <path fill="none" d="M0 0h36v36H0z" />
+            </svg>
+          </li>
+          <li>
+            <img
+              src="images/corner pic.jpg"
+              alt=""
+              class="h-10 w-10 rounded-full"
+            />
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="grid grid-cols-4 gap-2 pt-14">
+      <div class="col-span-1 p-2 hover:overflow-y-scroll overflow-hidden">
+        <ul class="list-none font-semibold space-y-3">
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href="">
+              <span
+                ><svg
+                  class="mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#1877f2"
+                    d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8h5Z"
+                  /></svg
+              ></span>
+              Home</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/corner pic.jpg"
+                  alt="" /></span
+              >Diana Ekhovbiye</a
+            >
+          </li>
+          <hr class="bg-slate-300 h-0.5 my-1" />
+
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><svg
+                  class="mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#1877f2"
+                    d="M2.5 4.5h19c.84 0 1.5.65 1.5 1.5v11.5c0 .85-.66 1.5-1.5 1.5h-19c-.85 0-1.5-.65-1.5-1.5V6c0-.85.65-1.5 1.5-1.5m7.21 4V15l5.71-3.3l-5.71-3.2M17.25 21H6.65c-.3 0-.5-.2-.5-.5s.2-.5.5-.5h10.7c.3 0 .5.2.5.5s-.3.5-.6.5Z"
+                  /></svg></span
+              >Watch</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><svg
+                  class="mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill="#1877f2"
+                    d="M1 10c.41.29.96.43 1.5.43c.55 0 1.09-.14 1.5-.43c.62-.46 1-1.17 1-2c0 .83.37 1.54 1 2c.41.29.96.43 1.5.43c.55 0 1.09-.14 1.5-.43c.62-.46 1-1.17 1-2c0 .83.37 1.54 1 2c.41.29.96.43 1.51.43c.54 0 1.08-.14 1.49-.43c.62-.46 1-1.17 1-2c0 .83.37 1.54 1 2c.41.29.96.43 1.5.43c.55 0 1.09-.14 1.5-.43c.63-.46 1-1.17 1-2V7l-3-7H4L0 7v1c0 .83.37 1.54 1 2zm2 8.99h5v-5h4v5h5v-7c-.37-.05-.72-.22-1-.43c-.63-.45-1-.73-1-1.56c0 .83-.38 1.11-1 1.56c-.41.3-.95.43-1.49.44c-.55 0-1.1-.14-1.51-.44c-.63-.45-1-.73-1-1.56c0 .83-.38 1.11-1 1.56c-.41.3-.95.43-1.5.44c-.54 0-1.09-.14-1.5-.44c-.63-.45-1-.73-1-1.57c0 .84-.38 1.12-1 1.57c-.29.21-.63.38-1 .44v6.99z"
+                  /></svg></span
+              >Markepplace</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><svg
+                  class="mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 15 15"
+                >
+                  <path
+                    fill="#1877f2"
+                    d="M13.1 11.5c-.6.3-1.4.1-1.8-.5l-1.1-1.4H4.8L3.7 11c-.5.7-1.4.8-2.1.3c-.5-.4-.7-1-.6-1.5l.7-3.7C1.9 4.9 3 4 4.2 4H7V2.5C7 1.7 7.6 1 8.4 1h3.1c.3 0 .5.2.5.5s-.2.5-.5.5h-3c-.3 0-.5.2-.5.4V4h2.8c1.2 0 2.3.9 2.5 2.1l.7 3.7c.1.7-.2 1.4-.9 1.7zM6 6.5C6 5.7 5.3 5 4.5 5S3 5.7 3 6.5S3.7 8 4.5 8S6 7.3 6 6.5zm6 0c0-.3-.2-.5-.5-.5H11v-.5c0-.3-.2-.5-.5-.5s-.5.2-.5.5V6h-.5c-.3 0-.5.2-.5.5s.2.5.5.5h.5v.5c0 .3.2.5.5.5s.5-.2.5-.5V7h.5c.3 0 .5-.2.5-.5z"
+                  />
+                </svg> </span
+              >Gaming</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><svg
+                  class="mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"
+                  /></svg></span
+              >See All</a
+            >
+          </li>
+          <hr class="bg-slate-300 h-0.5 my-1" />
+
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/FB pic 2.jpg"
+                  alt="" /></span
+              >Facebook Group 1</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/FB pic 1.jpg"
+                  alt="" /></span
+              >Facebook Group 2</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/FB pic 3.jpg"
+                  alt="" /></span
+              >Facebook Group 3</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><svg
+                  class="mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9A3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42c-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3a3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.536 5.536 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13v-1.75M0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9c-.59.68-.95 1.62-.95 2.65V20H0m24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65c2.56.34 4.45 1.51 4.45 2.9V20Z"
+                  /></svg></span
+              >See all groups</a
+            >
+          </li>
+          <hr class="bg-slate-300 h-0.5 my-1" />
+
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/fb pic 4.jpg"
+                  alt="" /></span
+              >Pages 1</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/fb pic 5.jpg"
+                  alt="" /></span
+              >Pages 2</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/fb pic 6.jpg"
+                  alt="" /></span
+              >Pages 3</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/fb pic 7.jpg"
+                  alt="" /></span
+              >Pages 4</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/fb pic 8.jpg"
+                  alt="" /></span
+              >Pages 5</a
+            >
+          </li>
+          <li class="hover:bg-slate-300">
+            <a class="flex items-center p-2" href=""
+              ><span
+                ><img
+                  class="h-6 w-6 rounded-full mr-2"
+                  src="images/fb pic 9.jpg"
+                  alt="" /></span
+              >Pages 6</a
+            >
+          </li>
+        </ul>
+        <ul
+          class="flex flex-wrap px-2 text-xs mt-5 space-x-2 leading-5 font-semibold text-gray-500 mr-8"
+        >
+          <li><a href="">Privacy</a></li>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Advertising</a></li>
+          <li><a href="">Ad Choices</a></li>
+          <li><a href="">Cookies</a></li>
+          <li><a href="">More</a></li>
+          <li>Meta &copy; 2023</li>
+        </ul>
+      </div>
+      <div class="col-span-2 p-2 w-5/6 mx-auto mt-2 space-y-4">
+        <section class="bg-white round-md px-0.5 shadow-md rounded-md">
+          <div class="flex m-0.5 h-14 justify-around p-1.5">
+            <button
+              class="flex justify-center w-1/2 items-center text-blue-500 border-b-4 border-blue-600 text-md pb-1.5 -mb-2"
+            >
+              <span
+                ><svg
+                  class="mr-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="#1778ef"
+                    d="M202.24 74C166.11 56.75 115.61 48.3 48 48a31.36 31.36 0 0 0-17.92 5.33A32 32 0 0 0 16 79.9V366c0 19.34 13.76 33.93 32 33.93c71.07 0 142.36 6.64 185.06 47a4.11 4.11 0 0 0 6.94-3V106.82a15.89 15.89 0 0 0-5.46-12A143 143 0 0 0 202.24 74Zm279.68-20.7A31.33 31.33 0 0 0 464 48c-67.61.3-118.11 8.71-154.24 26a143.31 143.31 0 0 0-32.31 20.78a15.93 15.93 0 0 0-5.45 12v337.13a3.93 3.93 0 0 0 6.68 2.81c25.67-25.5 70.72-46.82 185.36-46.81a32 32 0 0 0 32-32v-288a32 32 0 0 0-14.12-26.61Z"
+                  /></svg></span
+              >Stories
+            </button>
+            <button
+              class="flex justify-center w-1/2 items-center text-md hover:bg-slate-200 p-2"
+            >
+              <span
+                ><svg
+                  class="mr-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 32 32"
+                >
+                  <path
+                    fill="currentColor"
+                    d="m27.16 2l-4.21 1.12l-14.7 3.89l-1.48.4l-1.28.34L4 8.14l.99 3.73l2.76-.73l8.706-2.313l.004.003l5.7-1.51l-.006-.005L26.66 6.12l1.49-.39L27.16 2ZM9.211 7.79l4.505-1.192l1.781 1.449L11 9.24L9.211 7.79Zm10.201-2.7l3.512-.928l.282-.075h.001l.706-.188l1.784 1.442l-4.504 1.195l-1.78-1.445ZM29 28V13H5v15a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2Zm-2.475-14l-1.995 2.74h-4.65L21.875 14h4.65Zm-15.2 0h4.66l-1.995 2.74H9.33L11.325 14Z"
+                  /></svg></span
+              >Reels
+            </button>
+          </div>
+
+          <!--  -->
+          <div
+            class="flex m-2 space-x-4 px-2 py-4 hover:overflow-x-auto overflow-hidden"
+          >
+            <div
+              class="flex-none w-32 h-48 bg-white text-center overflow-hidden rounded-lg relative shadow-md pointer-cursor"
+            >
+              <img class="h-32" src="images/pastries pic.jpg" alt="" />
+              <div class="absolute bottom-12 left-12">
+                <svg
+                  class="p-1 bg-white rounded-full"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  viewBox="0 0 2048 2048"
+                >
+                  <path
+                    fill="#1778ef"
+                    d="M960 0q132 0 255 34t229 97t194 150t150 194t97 230t35 255q0 132-34 255t-97 229t-150 194t-194 150t-230 97t-255 35q-132 0-255-34t-229-97t-194-150t-150-194t-97-229T0 960q0-132 34-255t97-229t150-194t194-150t229-97T960 0zm576 896h-512V384H896v512H384v128h512v512h128v-512h512V896z"
+                  />
+                </svg>
+              </div>
+              <div class="pt-7 pb-2">
+                <p class="text-sm font-semibold">Create Story</p>
+              </div>
+            </div>
+            <!-- Reel 1 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/FB pic 1.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 7.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Achize <br />Hosana</p>
+              </div>
+            </div>
+
+            <!-- Reel 1 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/FB pic 9.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 3.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Okorie <br />Amarachi</p>
+              </div>
+            </div>
+
+            <!-- Reel 2 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/FB pic 3.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 4.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Nnadieto <br />Christy</p>
+              </div>
+            </div>
+
+            <!-- Reel 3 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/FB pic 6.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 8.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Ikechukwu <br />Francis</p>
+              </div>
+            </div>
+
+            <!-- Reel 4 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/FB pic 4.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 7.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Ekhovbiye <br />Edith</p>
+              </div>
+            </div>
+
+            <!-- Reel 5 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/pexels-alena-yanovich-11412543.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 1.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Imafidon <br />Esohe</p>
+              </div>
+            </div>
+
+            <!-- Reel 6 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/pastries\ pic.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 7.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Akpotabor <br />Aife</p>
+              </div>
+            </div>
+
+            <!-- Reel 7 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/fbpic10.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 3.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Okoro <br />Philip</p>
+              </div>
+            </div>
+
+            <!-- Reel 8 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/fbpic12.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 4.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Morah <br />Samuel</p>
+              </div>
+            </div>
+
+            <!-- Reel 9 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/fbpic11.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fbpic10.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Osazee <br />Stacy</p>
+              </div>
+            </div>
+
+            <!-- Reel 1 -->
+            <div
+              class="flex-none w-32 h-48 bg-white text-center rounded-lg relative shadow-md pointer-cursor"
+              style="
+                background-image: url('images/FB pic 7.jpg');
+                background-size: cover;
+              "
+            >
+              <div class="absolute top-2 left-2">
+                <img
+                  class="h-10 w-10 rounded-full p-1 bg-blue-600 z-0"
+                  src="images/fb pic 7.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="h-full w-full bg-black/30 hover:bg-black/50 p-4 z-12 rounded-md cursor-pointer"
+              ></div>
+
+              <div
+                class="absolute bottom-2 left-2 text-xs text-white cursor-pointer"
+              >
+                <p class="text-xs font-semibold">Mark <br />Zuckerberg</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-white round-md px-0.5 shadow-md rounded-md">
+          <div class="flex space-x-2 p-4 items-center">
+            <img
+              class="h-10 w-10 rounded-full"
+              src="images/fb pic 4.jpg"
+              alt=""
+            />
+            <input
+              class="outline-none w-full bg-slate-100 hover:bg-slate-200 rounded-full p-2"
+              type="text"
+              placeholder="What's on your mind, Diana?"
+            />
+          </div>
+          <hr class="bg-slate-300 h-0.5 my-1" />
+
+          <div class="flex justify-around items-center pb-2 pt-4">
+            <div class="hover:bg-slate-200 p-2">
+              <a class="flex font-semibold" href=""
+                ><span
+                  ><svg
+                    class="mr-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="red"
+                      d="M16 4a1 1 0 0 1 1 1v4.2l5.213-3.65a.5.5 0 0 1 .787.41v12.08a.5.5 0 0 1-.787.41L17 14.8V19a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h14zM7.4 8.829a.4.4 0 0 0-.392.32L7 9.228v5.542a.4.4 0 0 0 .542.374l.073-.036l4.355-2.772a.4.4 0 0 0 .063-.624l-.063-.05L7.615 8.89a.4.4 0 0 0-.215-.06z"
+                    /></svg></span
+                >Live Video</a
+              >
+            </div>
+            <div class="hover:bg-slate-200 p-2">
+              <a class="flex font-semibold" href=""
+                ><span
+                  ><svg
+                    class="mr-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 16 16"
+                  >
+                    <g fill="green">
+                      <path d="M4.502 9a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3z" />
+                      <path
+                        d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773l3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"
+                      />
+                    </g></svg></span
+                >Photo/Video</a
+              >
+            </div>
+            <div class="hover:bg-slate-200 p-2">
+              <a class="flex font-semibold" href=""
+                ><span
+                  ><svg
+                    class="mr-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle cx="15.5" cy="9.5" r="1.5" fill="yellow" />
+                    <circle cx="8.5" cy="9.5" r="1.5" fill="yellow" />
+                    <path
+                      fill="yellow"
+                      d="M12 18c2.28 0 4.22-1.66 5-4H7c.78 2.34 2.72 4 5 4z"
+                    />
+                    <path
+                      fill="yellow"
+                      d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8s8 3.58 8 8s-3.58 8-8 8z"
+                    /></svg></span
+                >Feeling/activity</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-white rounded-md px-4 shadow-md">
+          <div class="flex items-center justify-between pt-4 pl-2">
+            <h1 class="text-gray-500 font-semibold">People you may know</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="10"
+              viewBox="0 0 8 8"
+            >
+              <path
+                fill="currentColor"
+                d="M0 3v2h2V3H0zm3 0v2h2V3H3zm3 0v2h2V3H6z"
+              />
+            </svg>
+          </div>
+          <!--  -->
+
+          <div
+            class="flex m-1 space-x-1 px-2 py-4 hover:overflow-x-auto overflow-hidden relative"
+          >
+          <span class="absolute bg-white p-4 rounded-full hover:bg-gray-100 right-2 top-36"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M8.7 17.3q-.275-.275-.275-.7q0-.425.275-.7l3.9-3.9l-3.9-3.9q-.275-.275-.275-.7q0-.425.275-.7q.275-.275.7-.275q.425 0 .7.275l4.6 4.6q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.7.275q-.425 0-.7-.275Z"/></svg></span>
+            <!-- People you may know -->
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img
+                src="images/pexels-alena-yanovich-11412543.jpg"
+                class="w-52 h-52"
+                alt=""
+              />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Richard Powell
+                </p>
+              </div>
+              <div
+                class="flez m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <svg
+                    class="text-blue-600 font-semibold"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="#1778ef"
+                      d="M11 3.75a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5Zm-4 9.5A3.75 3.75 0 0 0 3.25 17v1.188c0 .754.546 1.396 1.29 1.517c4.278.699 8.642.699 12.92 0a1.537 1.537 0 0 0 1.29-1.517V17A3.75 3.75 0 0 0 15 13.25h-.34c-.185 0-.369.03-.544.086l-.866.283a7.251 7.251 0 0 1-4.5 0l-.866-.283a1.752 1.752 0 0 0-.543-.086H7Zm12.5-7a.75.75 0 0 1 .75.75v1.75H22a.75.75 0 0 1 0 1.5h-1.75V12a.75.75 0 0 1-1.5 0v-1.75H17a.75.75 0 0 1 0-1.5h1.75V7a.75.75 0 0 1 .75-.75Z"
+                    />
+                  </svg>
+                  <p class="text-sm font-semibold text-blue-600">Add friend</p>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img
+                src="images/pexels-alena-yanovich-11412543.jpg"
+                class="w-52 h-52"
+                alt=""
+              />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Richard Powell
+                </p>
+              </div>
+              <div
+                class="flez m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <svg
+                    class="text-blue-600 font-semibold"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="#1778ef"
+                      d="M11 3.75a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5Zm-4 9.5A3.75 3.75 0 0 0 3.25 17v1.188c0 .754.546 1.396 1.29 1.517c4.278.699 8.642.699 12.92 0a1.537 1.537 0 0 0 1.29-1.517V17A3.75 3.75 0 0 0 15 13.25h-.34c-.185 0-.369.03-.544.086l-.866.283a7.251 7.251 0 0 1-4.5 0l-.866-.283a1.752 1.752 0 0 0-.543-.086H7Zm12.5-7a.75.75 0 0 1 .75.75v1.75H22a.75.75 0 0 1 0 1.5h-1.75V12a.75.75 0 0 1-1.5 0v-1.75H17a.75.75 0 0 1 0-1.5h1.75V7a.75.75 0 0 1 .75-.75Z"
+                    />
+                  </svg>
+                  <p class="text-sm font-semibold text-blue-600">Add friend</p>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img
+                src="images/pexels-alena-yanovich-11412543.jpg"
+                class="w-52 h-52"
+                alt=""
+              />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Richard Powell
+                </p>
+              </div>
+              <div
+                class="flez m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <svg
+                    class="text-blue-600 font-semibold"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="#1778ef"
+                      d="M11 3.75a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5Zm-4 9.5A3.75 3.75 0 0 0 3.25 17v1.188c0 .754.546 1.396 1.29 1.517c4.278.699 8.642.699 12.92 0a1.537 1.537 0 0 0 1.29-1.517V17A3.75 3.75 0 0 0 15 13.25h-.34c-.185 0-.369.03-.544.086l-.866.283a7.251 7.251 0 0 1-4.5 0l-.866-.283a1.752 1.752 0 0 0-.543-.086H7Zm12.5-7a.75.75 0 0 1 .75.75v1.75H22a.75.75 0 0 1 0 1.5h-1.75V12a.75.75 0 0 1-1.5 0v-1.75H17a.75.75 0 0 1 0-1.5h1.75V7a.75.75 0 0 1 .75-.75Z"
+                    />
+                  </svg>
+                  <p class="text-sm font-semibold text-blue-600">Add friend</p>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img
+                src="images/pexels-alena-yanovich-11412543.jpg"
+                class="w-52 h-52"
+                alt=""
+              />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Richard Powell
+                </p>
+              </div>
+              <div
+                class="flez m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <svg
+                    class="text-blue-600 font-semibold"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="#1778ef"
+                      d="M11 3.75a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5Zm-4 9.5A3.75 3.75 0 0 0 3.25 17v1.188c0 .754.546 1.396 1.29 1.517c4.278.699 8.642.699 12.92 0a1.537 1.537 0 0 0 1.29-1.517V17A3.75 3.75 0 0 0 15 13.25h-.34c-.185 0-.369.03-.544.086l-.866.283a7.251 7.251 0 0 1-4.5 0l-.866-.283a1.752 1.752 0 0 0-.543-.086H7Zm12.5-7a.75.75 0 0 1 .75.75v1.75H22a.75.75 0 0 1 0 1.5h-1.75V12a.75.75 0 0 1-1.5 0v-1.75H17a.75.75 0 0 1 0-1.5h1.75V7a.75.75 0 0 1 .75-.75Z"
+                    />
+                  </svg>
+                  <p class="text-sm font-semibold text-blue-600">Add friend</p>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex-none w-52 bg-white overflow-hidden rounded-lg shadow-md pointer-cursor pb-1"
+            >
+              <img
+                src="images/pexels-alena-yanovich-11412543.jpg"
+                class="w-52 h-52"
+                alt=""
+              />
+              <div class="pt-1 pb-6 px-2.5 text-left">
+                <p class="text-lg font-semibold hover:underline cursor-pointer">
+                  Richard Powell
+                </p>
+              </div>
+              <div
+                class="flez m-1 rounded-lg bg-blue-600/10 hover:bg-blue-500/30 py-1.5"
+              >
+                <button
+                  class="flex space-x-1 w-full items-center justify-center"
+                >
+                  <svg
+                    class="text-blue-600 font-semibold"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="#1778ef"
+                      d="M11 3.75a3.75 3.75 0 1 0 0 7.5a3.75 3.75 0 0 0 0-7.5Zm-4 9.5A3.75 3.75 0 0 0 3.25 17v1.188c0 .754.546 1.396 1.29 1.517c4.278.699 8.642.699 12.92 0a1.537 1.537 0 0 0 1.29-1.517V17A3.75 3.75 0 0 0 15 13.25h-.34c-.185 0-.369.03-.544.086l-.866.283a7.251 7.251 0 0 1-4.5 0l-.866-.283a1.752 1.752 0 0 0-.543-.086H7Zm12.5-7a.75.75 0 0 1 .75.75v1.75H22a.75.75 0 0 1 0 1.5h-1.75V12a.75.75 0 0 1-1.5 0v-1.75H17a.75.75 0 0 1 0-1.5h1.75V7a.75.75 0 0 1 .75-.75Z"
+                    />
+                  </svg>
+                  <p class="text-sm font-semibold text-blue-600">Add friend</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Second Aside -->
+      <div class="col-span-1 p-2 mr-4">
+        <div class="flex items-center justify-between mb-2">
+          <h3 class="font-semibold">Your Pages and Profiles</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M6 14q-.825 0-1.412-.588Q4 12.825 4 12t.588-1.413Q5.175 10 6 10t1.412.587Q8 11.175 8 12q0 .825-.588 1.412Q6.825 14 6 14Zm6 0q-.825 0-1.412-.588Q10 12.825 10 12t.588-1.413Q11.175 10 12 10t1.413.587Q14 11.175 14 12q0 .825-.587 1.412Q12.825 14 12 14Zm6 0q-.825 0-1.413-.588Q16 12.825 16 12t.587-1.413Q17.175 10 18 10q.825 0 1.413.587Q20 11.175 20 12q0 .825-.587 1.412Q18.825 14 18 14Z"
+            />
+          </svg>
+        </div>
+        <div class="py-0.5 rounded-xl hover:bg-slate-300/40">
+          <a href="" class="flex items-center space-x-4 text-semibold">
+            <span class="py-0.5 mr-2"
+              ><img
+                class="h-6 w-6 rounded-full m-1"
+                src="images/corner pic.jpg"
+                alt=""
+            /></span>
+            Facebook Page</a
+          >
+        </div>
+        <div class="space-y-0.5 ml-1.5">
+          <!--  -->
+          <div class="px-1 rounded-x1 hover:bg-slate-300/40 opacity-70">
+            <a
+              class="flex items-center space-x-4 text-sm font-semibold text-slate-500"
+              href=""
+            >
+              <span class="px-1.5 py-1.5 rounded-full mr-2"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M32.51 27.83A14.4 14.4 0 0 1 30 24.9a12.63 12.63 0 0 1-1.35-4.81v-4.94A10.81 10.81 0 0 0 19.21 4.4V3.11a1.33 1.33 0 1 0-2.67 0v1.31a10.81 10.81 0 0 0-9.33 10.73v4.94a12.63 12.63 0 0 1-1.35 4.81a14.4 14.4 0 0 1-2.47 2.93a1 1 0 0 0-.34.75v1.36a1 1 0 0 0 1 1h27.8a1 1 0 0 0 1-1v-1.36a1 1 0 0 0-.34-.75ZM5.13 28.94a16.17 16.17 0 0 0 2.44-3a14.24 14.24 0 0 0 1.65-5.85v-4.94a8.74 8.74 0 1 1 17.47 0v4.94a14.24 14.24 0 0 0 1.65 5.85a16.17 16.17 0 0 0 2.44 3Z"
+                    class="clr-i-outline clr-i-outline-path-1"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M18 34.28A2.67 2.67 0 0 0 20.58 32h-5.26A2.67 2.67 0 0 0 18 34.28Z"
+                    class="clr-i-outline clr-i-outline-path-2"
+                  />
+                  <path fill="none" d="M0 0h36v36H0z" /></svg
+              ></span>
+              4 Notifications</a
+            >
+          </div>
+          <div class="px-1 rounded-x1 hover:bg-slate-300/40 opacity-70">
+            <a
+              class="flex items-center space-x-4 text-sm font-semibold text-slate-500"
+              href=""
+            >
+              <span class="px-1.5 py-1.5 rounded-full mr-2"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M128 28a100 100 0 1 0 100 100A100.11 100.11 0 0 0 128 28ZM68.87 198.42a68 68 0 0 1 118.26 0a91.8 91.8 0 0 1-118.26 0Zm124.3-5.55a75.61 75.61 0 0 0-44.51-34a44 44 0 1 0-41.32 0a75.61 75.61 0 0 0-44.51 34a92 92 0 1 1 130.34 0ZM128 156a36 36 0 1 1 36-36a36 36 0 0 1-36 36Z"
+                  /></svg
+              ></span>
+              Switch into Page</a
+            >
+          </div>
+          <div class="px-1 rounded-x1 hover:bg-slate-300/40 opacity-70">
+            <a
+              class="flex items-center space-x-4 text-sm font-semibold text-slate-500"
+              href=""
+            >
+              <span class="px-1.5 py-1.5 rounded-full mr-2"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M4.5 16.474a2.5 2.5 0 0 1-1.436-2.264V9.791a2.5 2.5 0 0 1 2.5-2.5h4.343c.793 0 1.581-.132 2.33-.392c1.859-.705 3.792-1.727 5.24-2.922l.869-.718a1 1 0 0 1 1.587.808v6.717a1.24 1.24 0 0 1 0 2.433v6.718a1.001 1.001 0 0 1-1.588.807l-.868-.718c-1.446-1.195-3.364-2.214-5.226-2.891a7.07 7.07 0 0 0-2.328-.394c-.609-.029-1.265-.029-1.265-.029v2.147a2.08 2.08 0 0 1-4.158 0v-2.383Zm1 .236v2.147a1.079 1.079 0 1 0 2.158 0V16.71H5.5Zm6-.882l.142.04a17.632 17.632 0 0 1 6.473 3.385l.818.677V4.071l-.82.677a17.605 17.605 0 0 1-6.468 3.379l-.145.041v7.66Zm-2.842-.118H10.5V8.291H5.564a1.5 1.5 0 0 0-1.5 1.5v4.419a1.5 1.5 0 0 0 1.499 1.5h3.095Z"
+                  /></svg
+              ></span>
+              Create Promotion</a
+            >
+          </div>
+          <div class="pb-3"></div>
+          <!--  -->
+          <div class="flex mb-items-center justify-between mb-2">
+            <h3 class="font-semibold">Birthdays</h3>
+          </div>
+          <div class="py-0.5 m rounded-xl hover:bg-slate-300/40">
+            <a
+              class="flex flex-wrap items-center space-x-4 text-sm text-semibold"
+              href=""
+              ><span class="py-0.5 mr-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="#1778f2"
+                    d="M12.055 5a6.27 6.27 0 0 0 .804-.674c.522-.522.871-1.164.983-1.808c.123-.706-.057-1.362-.494-1.798c-.348-.348-.82-.533-1.365-.533c-.775 0-1.593.372-2.242 1.021c-1.039 1.039-1.644 2.472-1.97 3.496c-.241-1.028-.722-2.416-1.657-3.351C5.613.852 4.972.594 4.366.594c-.495 0-.965.172-1.317.523c-.781.781-.675 2.153.236 3.064c.325.325.705.595 1.105.819H.999v4h1v7h12V9h1V5h-2.945zm-1.519-2.997c.433-.433.974-.692 1.446-.692c.167 0 .402.035.57.203c.407.407.178 1.349-.489 2.016c-.687.687-1.61 1.159-2.413 1.47h-.792c.29-.899.813-2.132 1.678-2.997zm-6.881.511c-.011-.143-.001-.41.191-.601a.727.727 0 0 1 .521-.194c.332 0 .679.157.952.429c.529.529.965 1.371 1.26 2.436l.023.086l-.086-.023c-1.064-.295-1.906-.731-2.436-1.26a1.42 1.42 0 0 1-.426-.872zM7 15H3V8.5h4V15zm0-7H2V6h5v2zm6 7H9V8.5h4V15zm1-7H9V6h5v2z"
+                  /></svg></span
+              >Oyins Pereside's Birthday is today</a
+            >
+          </div>
+          <div class="pb-3"></div>
+          <!--  -->
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="font-semibold">Contacts</h3>
+            <div class="flex items-center space-x-5 cursor-pointer opacity-50">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+              >
+                <g fill="none">
+                  <path
+                    d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M6 10.5a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3Zm6 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3Zm6 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3Z"
+                  />
+                </g>
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  fill="currentColor"
+                  d="M1014.64 969.04L703.71 656.207c57.952-69.408 92.88-158.704 92.88-256.208c0-220.912-179.088-400-400-400s-400 179.088-400 400s179.088 400 400 400c100.368 0 192.048-37.056 262.288-98.144l310.496 312.448c12.496 12.497 32.769 12.497 45.265 0c12.48-12.496 12.48-32.752 0-45.263zM396.59 736.527c-185.856 0-336.528-150.672-336.528-336.528S210.734 63.471 396.59 63.471c185.856 0 336.528 150.672 336.528 336.528S582.446 736.527 396.59 736.527z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11l-4 4Z"
+                />
+              </svg>
+            </div>
+          </div>
+          <ul class="list-none font-semibold text-md pl-1">
+            <!-- Side Menu Items -->
+            <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40 opacity-30">
+              <a href="" class="flex items-center space-x-4">
+                <span class="py-1 mr-2"
+                  ><img
+                    class="h-4 w-6 rounded-full m-1"
+                    src="images/fbpic10.jpg"
+                    alt=""
+                /></span>
+                Joshua Obasi</a
+              >
+            </li>
+            <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40 opacity-30">
+              <a href="" class="flex items-center space-x-4">
+                <span class="py-1 mr-2"
+                  ><img
+                    src="images/fb pic 6.jpg"
+                    class="h4 w-6 rounded-full m-2"
+                    alt="" /></span
+                >Ivie Ekhovbiye</a
+              >
+            </li>
+            <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40 opacity-30">
+              <a href="" class="flex items-center space-x-4">
+                <span class="py-1 mr-2"
+                  ><img
+                    src="images/FB pic 1.jpg"
+                    class="h4 w-6 rounded-full m-2"
+                    alt=""
+                /></span>
+                Love Kinson</a
+              >
+            </li>
+            <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40 opacity-30">
+              <a href="" class="flex items-center space-x-4">
+                <span class="py-1 mr-2"
+                  ><img
+                    src="images/FB pic 3.jpg"
+                    class="h4 w-6 rounded-full m-2"
+                    alt=""
+                /></span>
+                Joy Amgbaduba</a
+              >
+            </li>
+            <li class="py-0.5 px-1 rounded-xl hover:bg-slate-300/40 opacity-30">
+              <a href="" class="flex items-center space-x-4">
+                <span class="py-1 mr-2"
+                  ><img src="images/fb pic 9.jpg" class="h4 w-6 rounded-full m-2
+                  alt=""></span
+                >
+                Heavenly Body</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
